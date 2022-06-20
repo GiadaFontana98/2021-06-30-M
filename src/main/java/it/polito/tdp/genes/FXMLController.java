@@ -57,6 +57,7 @@ public class FXMLController {
 
 	public void setModel(Model model) {
 		this.model = model ;
+		txtResult.appendText(model.creaGrafo());
 		
 	}
 }
